@@ -1,4 +1,5 @@
-#Free the Bunny Prisoners
+Free the Bunny Prisoners
+===================
 You need to free the bunny prisoners before Commander Lambda's space station explodes! Unfortunately, the commander was very careful with her highest-value prisoners - they're all held in separate, maximum-security cells. The cells are opened by putting keys into each console, then pressing the open button on each console simultaneously. When the open button is pressed, each key opens its corresponding lock on the cell. So, the union of the keys in all of the consoles must be all of the keys. The scheme may require multiple copies of one key given to different minions.
 
 The consoles are far enough apart that a separate minion is needed for each one. Fortunately, you have already freed some bunnies to aid you - and even better, you were able to steal the keys while you were working as Commander Lambda's assistant. The problem is, you don't know which keys to use at which consoles. The consoles are programmed to know which keys each minion had, to prevent someone from just stealing all of the keys and using them blindly. There are signs by the consoles saying how many minions had some keys for the set of consoles. You suspect that Commander Lambda has a systematic way to decide which keys to give to each minion such that they could use the consoles.
@@ -13,9 +14,11 @@ num_buns will always be between 1 and 9, and num_required will always be between
 [0, 1], [0, 2], [1, 2], ]
 
 Languages
+====================
 To provide a Python solution, edit solution.py To provide a Java solution, edit solution.java
 
 Test cases
+====================
 Inputs: (int) num_buns = 2 (int) num_required = 1 Output: (int) [[0], [0]]
 
 Inputs: (int) num_buns = 5 (int) num_required = 3 Output: (int) [[0, 1, 2, 3, 4, 5], [0, 1, 2, 6, 7, 8], [0, 3, 4, 6, 7, 9], [1, 3, 5, 6, 8, 9], [2, 4, 5, 7, 8, 9]]
