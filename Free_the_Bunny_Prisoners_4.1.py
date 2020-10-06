@@ -36,7 +36,7 @@ def answer(num_buns, num_required):
         key_combs=list(itertools.combinations(range(num_buns),num_keys))
 
         # i iterates through each key used
-        for i in range(total/num_keys):
+        for i in range(total//num_keys):
             # j iterates through every bunny which gets that key
             for j in key_combs[i]:
                 # give the current key (i) to bunny j
